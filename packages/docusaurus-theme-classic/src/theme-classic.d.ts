@@ -900,7 +900,7 @@ declare module '@theme/Navbar/Search' {
     readonly className?: string;
   }
 
-  export default function NavbarSearch(props: Props): JSX.Element;
+  export default function NavbarSearch(props: Props): JSX.Element | null;
 }
 
 declare module '@theme/NavbarItem/DefaultNavbarItem' {
